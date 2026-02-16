@@ -16,8 +16,8 @@ MIRROR_SITES = [
 ]
 
 # Токен и Chat ID получаем из секретов GitHub
-TOKEN = os.environ.get('7588241489:AAFuX49z2v9787XzxaZV7vQ7a17nNri2lCI')
-CHAT_ID = os.environ.get('5173431937')
+TOKEN = os.environ.get('BOT_TOKEN')
+CHAT_ID = os.environ.get('CHAT_ID')
 # ===============================================
 
 def fetch_server_ips():
